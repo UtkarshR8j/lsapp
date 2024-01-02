@@ -42,7 +42,7 @@ $(document).ready(function() {
         responsive:true,
         ykeys: ['a', 'b', 'c'],
         labels: ['Bar 1', 'Bar 2', 'Bar 3'],
-        barColors: ["0-#1de9b6-#1dc4e9", "0-#899FD4-#A389D4", "#04a9f5"]
+        barColors: ["0-#1de9b6-#1dc4e9", "0-#899FD4-#F5F3CD ", "#04a9f5"]
     });
     // [ bar-simple ] chart end
 
@@ -88,7 +88,7 @@ $(document).ready(function() {
         responsive:true,
         ykeys: ['a', 'b', 'c'],
         labels: ['Bar 1', 'Bar 2', 'Bar 3'],
-        barColors: ["0-#1de9b6-#1dc4e9", "0-#899FD4-#A389D4", "#04a9f5"]
+        barColors: ["0-#1de9b6-#1dc4e9", "0-#899FD4-#F5F3CD ", "#04a9f5"]
     });
     // [ bar-stacked ] chart end
 
@@ -136,14 +136,14 @@ $(document).ready(function() {
         labels: ['Series A', 'Series B'],
         pointSize: 0,
         fillOpacity: 0.8,
-        pointStrokeColors: ['#b4becb', '#A389D4'],
+        pointStrokeColors: ['#b4becb', '#F5F3CD '],
         behaveLikeLine: true,
         gridLineColor: '#e0e0e0',
         lineWidth: 0,
         smooth: false,
         hideHover: 'auto',
         responsive:true,
-        lineColors: ['#b4becb', '#A389D4'],
+        lineColors: ['#b4becb', '#F5F3CD '],
         resize: true
     });
     // [ area-angle-chart ] end
@@ -187,7 +187,7 @@ $(document).ready(function() {
             ipad: 10,
             itouch: 10
         }],
-        lineColors: ['#A389D4', '#1de9b6', '#04a9f5'],
+        lineColors: ['#F5F3CD ', '#1de9b6', '#04a9f5'],
         xkey: 'period',
         ykeys: ['iphone', 'ipad', 'itouch'],
         labels: ['Site A', 'Site B', 'Site C'],
@@ -298,7 +298,7 @@ $(document).ready(function() {
         hideHover: 'auto',
         responsive:true,
         labels: ['Series A', 'Series B'],
-        lineColors: ['#1de9b6', '#A389D4']
+        lineColors: ['#1de9b6', '#F5F3CD ']
     });
     // [ line-smooth-chart ] end
 
@@ -324,7 +324,7 @@ $(document).ready(function() {
         ],
         colors: [
             '#1de9b6',
-            '#A389D4',
+            '#F5F3CD ',
             '#04a9f5',
             '#1dc4e9',
         ],

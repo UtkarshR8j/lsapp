@@ -1,18 +1,18 @@
 # Core
-django==4.1.12
-python-dotenv==1.0.0
+django
+python-dotenv
 
 # UI 
-django-admin-datta==1.0.10
+django-admin-datta
 
 # Tooling
-django-dynamic-datatb==1.0.25
-django-api-generator==1.0.17
-django-debug-toolbar==4.2.0
+django-dynamic-datatb
+django-api-generator
+django-debug-toolbar
 
 # Deployment
-whitenoise==6.5.0
-gunicorn==21.2.0
+whitenoise
+gunicorn
 
 # DB Layer
 # psycopg2-binary
