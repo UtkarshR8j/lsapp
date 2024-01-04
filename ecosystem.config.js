@@ -2,7 +2,7 @@
     apps:            
        [{
          name: "longstraw carbon",          
-         script: "manage.py",
+         script: "lsapp/manage.py",
          args: ["runserver", "0.0.0.0:8000"], 
          exec_mode: "fork", 
          instances: "1", 
